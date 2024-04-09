@@ -5,8 +5,6 @@ use web_sys::HtmlInputElement;
 use yew::{html::Scope, Component, Context, KeyboardEvent, NodeRef, TargetCast};
 use yew::{classes, html, Classes, FocusEvent, Html};
 mod state;
-mod db;
-
 const KEY: &str = "yew.todomvc.self";
 
 pub struct App {
@@ -131,7 +129,7 @@ impl Component for App {
                 </section>
                 <footer class="info">
                     <p>{"Double-click to edit a todo"}</p>
-                    <p>{"Written by Li Hang"}</p>
+                    <p>{"Service from Li Hang"}</p>
                 </footer>
             </div>
         }
